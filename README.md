@@ -20,7 +20,7 @@ time required to segment the brain tumor. Instead of hours with this model segme
 
 <h2 id="Overview">Overview</h2>
 Here is an overview of the website.
-<p align = "center"><img align = "center" src = "images/realtime.gif" /></p>
+<p align = "center"><img align = "center" src = "images/realtime.gif", width="700px"/></p>
 
 <h2 id="UnderstandingData">Understanding Data</h2>
 
@@ -41,10 +41,10 @@ Here is how the 70th slide of the label for this particular brain looks.
 
 So, if we combine the two and separate the tumors based on their type we would get something like this
 for the 70th slide.
-<p align = "center"><img align = "center" src = "images/label.png", width="170px"/></p>
+<p align = "center"><img align = "center" src = "images/label.png", width="320px"/></p>
 
 And now to get a look at all the slides, I have made this animation.
-<p align = "center"><img align = "center" src = "images/final.gif", width="170px"/></p>
+<p align = "center"><img align = "center" src = "images/final.gif", width="320px"/></p>
 
 <<h2 id="Setup">Setup</h2>
 
@@ -69,7 +69,7 @@ One of the most basic architectures for segmentation tasks in a UNet achitecture
 encoder-decoder architecture. Given the input images it has to predict the segmented output masks.
 Here, is an image of the architecture.
 
-<p align = "center"><img align = "center" src = "images/unet.png", width="170px"/></p>
+<p align = "center"><img align = "center" src = "images/unet.png"/></p>
 
 <h2 id="Training">Training</h2>
 To train your own model a training.py file has been included.
@@ -103,13 +103,14 @@ So, classes which are small are given higher weights and vice versa.
 <h2 id="Results">Results</h2>
 Here are the results of the trained model, actual vs predicted labels
 
-<p align = "center"><img align = "center" src = "images/results.png", width="300px"/></p>
+<p align = "center"><img align = "center" src = "images/results.png"/></p>
 
 <h2 id="FutureDevelopment">Future Development</h2>
 The dataset that was used for this training in Brats 2018 dataset. Since, the dataset is small the model was trained only for small number of epochs.
 For future, I would like to train on larger dataset with better resources. I would also like to try different models as well as different types of losses to better capture the results
 
 <h2 id="References">References</h2>
+
 Here are a few references:
 
 [Dataset](https://www.med.upenn.edu/cbica/brats2020/data.html)
