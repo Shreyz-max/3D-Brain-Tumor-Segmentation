@@ -85,9 +85,7 @@ The final dice loss came out to be 0.3573, while dice scores for each type of tu
 
 The formula for dice score is:
 
-```math
-Dice Score = \frac{2*a \cap  b}{/a\cup b}
-```
+<p align = "center"><img src = "images/loss.gif" /></p>
 Dice loss can be calculated using:
 
 ```math
